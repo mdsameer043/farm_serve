@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB connection
-mongoose.connect("mongodb+srv://mmoulana706:AgRULEbkxzaYHM5W@smd.azp6c.mongodb.net/users?retryWrites=true&w=majority&appName=smd", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://username:password@smd.azp6c.mongodb.net/users?retryWrites=true&w=majority&appName=smd", { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected successfully'))
     .catch(err => console.error('Error connecting to MongoDB:', err));
 
