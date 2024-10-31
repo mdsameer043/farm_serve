@@ -1,0 +1,22 @@
+.body2 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.form-floating {
+    padding: 1vh;
+}
+
+.form-signup {
+    padding: 20vh 35vw;
+}
+
+.link-signin {
+    padding: 2vh;
+}
+
+#invalid_notification {
+    color: red;
+    padding-left: 18vw;
+    font-size: 15px;
+}
